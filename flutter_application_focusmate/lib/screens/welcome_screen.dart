@@ -27,14 +27,14 @@ class WelcomeScreen extends StatelessWidget {
                     text: const TextSpan(
                       children: [
                         TextSpan(
-                            text: 'Time To Plane\n',
+                            text: 'Welcome to FocusMate\n',
                             style: TextStyle(
                               fontSize: 45.0,
                               fontWeight: FontWeight.w600,
                             )),
                         TextSpan(
                             text:
-                                '\nEnter personal details to your employee account',
+                                '\nHãy để tôi giúp bạn quản lý thời gian của mình',
                             style: TextStyle(
                               fontSize: 20,
                               // height: 0,

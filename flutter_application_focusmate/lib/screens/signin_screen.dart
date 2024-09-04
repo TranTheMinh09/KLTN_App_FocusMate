@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:icons_plus/icons_plus.dart';
+//import 'package:icons_plus/icons_plus.dart';
 import 'package:flutter_application_focusmate/screens/signup_screen.dart';
 import 'package:flutter_application_focusmate/widgets/custom_scaffold.dart';
 
@@ -177,7 +177,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       const SizedBox(
                         height: 25.0,
                       ),
-                      Row(
+                     /* Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Expanded(
@@ -220,7 +220,7 @@ class _SignInScreenState extends State<SignInScreen> {
                       ),
                       const SizedBox(
                         height: 25.0,
-                      ),
+                      ),*/
                       // don't have an account
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,

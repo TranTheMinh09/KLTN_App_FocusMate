@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:icons_plus/icons_plus.dart';
+//import 'package:icons_plus/icons_plus.dart';
 import 'package:flutter_application_focusmate/screens/signin_screen.dart';
 import 'package:flutter_application_focusmate/theme/theme.dart';
 import 'package:flutter_application_focusmate/widgets/custom_scaffold.dart';
@@ -163,16 +163,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                             activeColor: lightColorScheme.primary,
                           ),
                           const Text(
-                            'I agree to the processing of ',
+                            'I agree to the terms and conditions\nand the privacy policy',
                             style: TextStyle(
                               color: Colors.black45,
-                            ),
-                          ),
-                          Text(
-                            'Personal data',
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
-                              color: lightColorScheme.primary,
                             ),
                           ),
                         ],
@@ -196,7 +189,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 const SnackBar(
                                     content: Text(
-                                        'Please agree to the processing of personal data')),
+                                        'Please agree to the terms and conditions and the privacy policy')),
                               );
                             }
                           },
@@ -207,7 +200,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         height: 30.0,
                       ),
                       // sign up divider
-                      Row(
+                    /*  Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Expanded(
@@ -238,9 +231,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                       const SizedBox(
                         height: 30.0,
-                      ),
+                      ),*/
                       // sign up social media logo
-                      Row(
+                    /*Row(
                         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                         children: [
                           Logo(Logos.facebook_f),
@@ -251,7 +244,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                       const SizedBox(
                         height: 25.0,
-                      ),
+                      ),*/
                       // already have an account
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,

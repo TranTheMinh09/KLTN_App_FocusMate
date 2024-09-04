@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "686792063068",
+    "project_id": "kltn-app-focusmate",
+    "storage_bucket": "kltn-app-focusmate.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:686792063068:android:7da61e4c720585bfe24e99",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application_focusmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArdz-CJfgFamciAZvUEE8et47udF70pkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
